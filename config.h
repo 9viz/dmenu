@@ -15,8 +15,15 @@ static const char *prompt      = NULL;
 /* border width in pixels. can be overriden with the -bp flag */
 static unsigned int borderpx   = 0;
 
-/* includ theme */
-#include "/home/viz/usr/local/share/cache/tm/dmenu.h"
+static const char *fonts[] = { "monospace:pixelsize=12" };
+static const char *colors[SchemeLast][2] = {
+    /*                    fg      bg       */
+    [SchemeNorm]    =  { "#1c1e1d",      "#e7e7d4" },
+    [SchemeSel]     =  { "#a9a9a1",      "#e7e7d4" }, 
+    [SchemeOut]     =  { "#000000",      "#00ffff" },     
+    [SchemeBorder]  =  { "#a9a9a1",      "#a9a9a1" }, 
+};
+
 
 /* -l option; if nonzero, dmenu uses vertical list with given number of lines */
 static unsigned int lines      = 0;
