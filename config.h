@@ -17,11 +17,11 @@ static unsigned int borderpx   = 0;
 
 static const char *fonts[] = { "monospace:pixelsize=12" };
 static const char *colors[SchemeLast][2] = {
-    /*                    fg      bg       */
+    /*                    fg               bg     */
     [SchemeNorm]    =  { "#1c1e1d",      "#e7e7d4" },
-    [SchemeSel]     =  { "#a9a9a1",      "#e7e7d4" }, 
+    [SchemeSel]     =  { "#101412",      "#a9a9a1" }, 
     [SchemeOut]     =  { "#000000",      "#00ffff" },     
-    [SchemeBorder]  =  { "#a9a9a1",      "#a9a9a1" }, 
+    [SchemeBorder]  =  { "#1c1e1d",      "#1c1e1d" }, 
 };
 
 
