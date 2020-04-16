@@ -11,14 +11,14 @@ static const char *fonts[] = { "monospace:pixelsize=12" };
 static const char *prompt      = NULL;
 
 /* border width in pixels. can be overriden with the -bp flag */
-static unsigned int borderpx   = 0;
+static unsigned int borderpx   = 1;
 
 static const char *colors[SchemeLast][2] = {
     /*                    fg               bg     */
-    [SchemeNorm]    =  { "#1c1e1d",      "#e7e7d4" },
-    [SchemeSel]     =  { "#101412",      "#a9a9a1" }, 
+    [SchemeNorm]    =  { "#000000",      "#e9fee9" },
+    [SchemeSel]     =  { "#e9fee9",      "#438743" }, 
     [SchemeOut]     =  { "#000000",      "#00ffff" },     
-    [SchemeBorder]  =  { "#1c1e1d",      "#1c1e1d" }, 
+    [SchemeBorder]  =  { "#87cb87",      "#87cb87" }, 
 };
 
 
