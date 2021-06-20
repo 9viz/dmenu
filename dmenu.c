@@ -461,6 +461,7 @@ keypress(XKeyEvent *ev)
         case XK_bracketleft:
             cleanup();
             exit(1);
+		case XK_v: ksym = XK_Next; break;
         default:
             return;
         }
@@ -478,6 +479,7 @@ keypress(XKeyEvent *ev)
         case XK_j: ksym = XK_Next;  break;
         case XK_k: ksym = XK_Prior; break;
         case XK_l: ksym = XK_Down;  break;
+		case XK_v: ksym = XK_Prior; break;
 		case XK_d:
 			
         default:
